@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+/* //Navbar css */
+
+
+nav{
+    margin-top: 0;
+    display: flex;
+    background-color: rgb(34, 38, 39);
+    color: white;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 0;
+    position: fixed;
+ 
+    
+}
+
+ .ullist{
+    display: flex;
+    background-color: rgb(34, 38, 39);
+    color: white;
+    justify-content: center;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.ullist li{
+    list-style-type: none;
+    margin: 20px;
+
+}
+
+ .ullist li :Link{
+   color: #fff;
+   text-decoration: none;
+}
+
+
+.title{
+    margin-right: 100px;
+}
+
+.title h1{
+    font-size: 1.2rem;
+}
+.title h1 span{
+    font-size: 2rem;
+    color: orange;
+}
+
+
+#login-btn{
+    font-size: 2.5rem;
+    margin-top: 25px;
+    margin-left: 12%;
+}
+
+ul{
+    background-color: bisque;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+   
+  }
+  .navbar li {
+    margin: 10px 0;
+  }
+}
+/* @media (min-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    gap: 2px;
+  }
+  .navbar li {
+    margin: 10px 0;
+  }
+} */

@@ -1,0 +1,34 @@
+.maindiv-form {
+  max-width: 500px; /* set a maximum width to prevent the form from becoming too wide on larger screens */
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  width: 30%; /* center the form horizontally */
+}
+
+@media (min-width: 768px) { /* apply these styles only on screens wider than 768px */
+  .maindiv-form {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 992px) { /* apply these styles only on screens wider than 992px */
+  .maindiv-form {
+    max-width: 900px;
+  }
+}
+
+/* adjust the input and textarea styles for smaller screens */
+@media (max-width: 576px) {
+  .form-control {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+/* adjust the button styles for smaller screens */
+@media (max-width: 480px) {
+  .btn {
+    font-size: 1.2rem;
+  }
+}

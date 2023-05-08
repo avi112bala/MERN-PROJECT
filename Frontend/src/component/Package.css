@@ -1,0 +1,26 @@
+.sectionp{
+    position: relative;
+	height: auto;
+  background-image: url('./images/background.jpg');
+	background-size: cover;
+
+
+
+}
+
+.row-package{
+  row-gap: 3.2rem;
+  column-gap: 3rem;
+}
+
+.card-text{
+  text-align: justify;
+}
+.col:hover{
+      position: relative;
+      transform: scale(1.1);
+      border-radius: 1px;
+      border: none;
+      z-index: 99;
+      transition: all ease 400ms;
+}

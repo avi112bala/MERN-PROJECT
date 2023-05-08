@@ -1,0 +1,124 @@
+.box-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container-contact{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+
+.headercontact{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input1{
+   background-color: rgba(255, 255, 255, 0.2);
+	height: 60px;
+  width: 100%;
+	padding: 0px 25px;
+	border: none;
+	border-radius: 40px;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 0px 2px transparent;
+	box-shadow: 0px 0px 0px 2px transparent;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+   
+
+    
+}
+.input-field .input2{
+   background-color: rgba(255, 255, 255, 0.2);
+	height: 60px;
+  width: 100%;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 40px;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 0px 2px transparent;
+	box-shadow: 0px 0px 0px 2px transparent;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+    
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit-contact{
+   color: #fff;
+	background-color: #e35e0a;
+	font-weight: 700;
+	height: 60px;
+	padding: 10px 30px;
+	width: 100%;
+	border-radius: 40px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+.submit-contact:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+
+.register{
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+.login{
+     margin-left: 40%;
+    margin-top: 100px;
+}
+.inputBox{
+    display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid skyblue;
+}
+
+.inputBox::placeholder{
+    color: black;
+}
+
+.appButton{
+    margin: 25px;
+    margin-left: 6rem;
+    padding: 10px;
+    width: 150px;
+    background-color: skyblue;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
+}

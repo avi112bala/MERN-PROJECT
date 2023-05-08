@@ -1,0 +1,40 @@
+.card:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+
+
+/* Gallery  */
+
+
+
+
+
+
+.brand{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem;
+      /* border: .1px solid lightgray; */
+      transition: all ease 400ms;
+      
+
+}
+.brand img{
+    height: 15rem;
+    width: 17rem;
+    object-fit: cover;
+     border: 10px ridge rgb(0, 255, 217);
+    
+}
+
+.brand:hover{
+      position: relative;
+      transform: scale(1.1);
+      /* background-color: white; */
+      
+      border-radius: 1px;
+      border: none;
+      z-index: 99;
+      transition: all ease 400ms;
+}
